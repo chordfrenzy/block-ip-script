@@ -7,7 +7,7 @@ fetch("https://ipapi.co/json")
     const userIP = data.ip;
     if (blockedIPs.includes(userIP)) {
       // Aksi blokir - bisa redirect, sembunyikan halaman, atau tampilkan pesan
-      window.location.href = "https://google.com";
+      window.location.href = "https://www.itvmalaysia.net";
     }
   })
   .catch((err) => console.error("Gagal cek IP", err));
